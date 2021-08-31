@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
+import Header from './components/header';
+import Footer from './components/footer';
 
 function App(){
 
   return(
     <div className="app">
-      <header>
-        <h1 className="title">Adam Andrzejczak's Portfolio</h1>
-      </header>
+
+      <Header />
+      
+
+
+
+
+
+      <Footer />
     </div>
   );
 }
