@@ -3,9 +3,34 @@
   background: cornflowerblue;
 };
 
-.title {
-  text-align: center;
+.header {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: white;
+  height: 130px;
+
 }
 
+.title {
+  text-align:center;
+  color: whitesmoke;
 
+}
 
+.navbar {
+  position: absolute;
+  right: 15px;
+  display: flex;
+}
+
+.navBarList {
+  list-style-type: none;
+  display: inline-flex;
+  margin-right: 10px;
+ }
+
+ a {
+   color: whitesmoke
+ }
+  
