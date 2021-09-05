@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './index.css';
 import { BrowserRouter, Switch, Route, Link, } from 'react-router-dom';
 import Header from './components/header';
