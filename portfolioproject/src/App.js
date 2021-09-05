@@ -12,19 +12,19 @@ function App(){
 
   return(
    <BrowserRouter>
-    <div className="container">
+    <div>
       <Header />
       <div className="heading">
         <Link to="/" className="links"> Home Page</Link>
-        <Link to="departments" className="links"> About</Link>
-        <Link to="/jobtitles" className="links"> Contact</Link>
-        <Link to="/employees" className="links"> Resume</Link>
+        <Link to="about" className="links"> About</Link>
+        <Link to="/contact" className="links"> Contact</Link>
+        <Link to="/resume" className="links"> Resume</Link>
         </div>
         <Switch>
           <Route path='/' component={Homepage} exact />
-          <Route path='/departments' component={About} />
-          <Route path='/jobtitles' component={Contact} />
-          <Route path='/employees' component={Resume} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/resume' component={Resume} />
 
           </Switch>
     </div>
