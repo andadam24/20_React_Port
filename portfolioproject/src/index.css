@@ -27,4 +27,15 @@ body {
   padding-top: 100px;
 }
 
+.contact-me-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
 

@@ -6,6 +6,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Projects from './pages/projects';
 import Resume from './pages/resume';
+import Footer from './components/footer';
 
 
 function App(){
@@ -26,8 +27,9 @@ function App(){
           <Route path='/contact' component={Contact} />
           <Route path='/resume' component={Resume} />
 
-          </Switch>
+        </Switch>
     </div>
+    <Footer />
   </BrowserRouter>
   );
 }
