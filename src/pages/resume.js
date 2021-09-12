@@ -9,7 +9,7 @@ function Resume(){
         <h3>Resume</h3>
           <div className="row">
             <div className="col-12">
-              <td onClick={()=> window.open({AAResume},"_blank")}>Click here to view Resume</td>
+            <img src={AAResume} alt=""/>
             </div>
             
 
