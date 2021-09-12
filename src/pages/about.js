@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutMeImage from '../assets/images/IMG_1956.jpg'
 
 function About(){
 
@@ -7,7 +8,7 @@ function About(){
         <h3>About Me</h3>
           <div className="row">
             <div className="col-3">
-              <img src="/images/IMG_1956.jpg" alt=""/>
+              <img src={aboutMeImage} alt=""/>
             </div>
             <div className="col-8 align-self-center">
           
